@@ -15,3 +15,5 @@ fileContents = open(filename, "r").read()
 f = open(filename, "w", newline="\r\n")
 f.write(fileContents)
 f.close()
+
+print('Conversion complete!')
